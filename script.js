@@ -1,3 +1,23 @@
+ //Billede animation
+ function handler(entries, observer) {
+    for (const entry of entries) {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("transition");
+            observer.unobserve(entry.target);
+        } else {
+            entry.target.classList.remove("transition");
+        }
+    }
+}
+
+const observer = new IntersectionObserver(handler, {
+    threshold: 0.1,
+});
+
+//svg animation
+observer.observe(document.querySelector("svg"))
+
+
 //video
 function videoHandler(entries) {
     for (const entry of entries) {
@@ -36,8 +56,6 @@ function onScroll() {
         updateTextPathOffset(scrollPercent * 1 * pathLength);
     });
 }
-
-
 
 document.querySelector(".MainContainer").addEventListener('scroll', onScroll);
 

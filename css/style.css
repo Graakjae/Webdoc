@@ -30,7 +30,7 @@ html, body {
   }
   
   .Content {
-    max-width: 750px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 75px 0;
   }
@@ -40,22 +40,30 @@ html, body {
   }
   
   .ParallaxContainer {
-    display: flex;
-    flex: 1 0 auto;
     position: relative;
     z-index: -1;
-    height: 100%;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     transform: translateZ(-1px) scale(2);
     background: url(https://media0.giphy.com/media/7BL6VINFeSY0Q2PgRf/giphy.gif?cid=ecf05e47vams3yal85b7epqn7kt3q5nqhh1hdcayc8t05jzt&rid=giphy.gif&ct=g);
     background-size: 100%;
+    background-repeat: no-repeat;
   }
+
+  .ParallaxContainer svg{
+    display: block;
+    margin: auto;
+    top: 0;
+    width: 65%;
+  }
+
   
   video{
     display: block;
     margin: auto;
-    padding-top: 20px;
+    justify-content: center;
+    margin-top: -50px;
   }
   
   .top{
@@ -80,4 +88,5 @@ html, body {
     border-radius: 10px;
   }
 
+  
   
