@@ -1,12 +1,12 @@
 html, body {
-    font-family: Open Sans;
+    font-family: Quicksand;
     font-size: 18px;
     line-height: 28px;
     scroll-behavior: smooth;
   }
   
   h1 {
-    font-family: Open Sans;
+    font-family: Quicksand;
     color: white;
     text-align: center;
     font-size: 100px;
@@ -57,4 +57,27 @@ html, body {
     margin: auto;
     padding-top: 20px;
   }
+  
+  .top{
+    position: absolute;
+    color: transparent;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  section div p {
+    text-align: center;
+    margin-top: -20%;
+    color: white;
+    font-family: Quicksand;
+  }
+
+  .img{
+    box-shadow: 0px 3px 7px rgba(0,0,0,.5);
+    border-radius: 10px;
+  }
+
   

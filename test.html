@@ -1,26 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <svg id="text-container" class="max" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+    <nav id="mainnav" class="">
+        <ul class="dotnav dotnav-vertical dotnav-right nav">
+            <li class="awesome-tooltip" title="top"><a href="#top"></a></li>
+            <li class="awesome-tooltip" title="video"><a href="#video"></a></li>
+            <li class="awesome-tooltip" title="Skills"><a href="#skills"></a></li>
+            <li class="awesome-tooltip" title="Projects"><a href="#projects"></a></li>
+            <li class="awesome-tooltip" title="Contact"><a href="#contact"></a></li>
+        </ul>
+    </nav>
+
+    <div class="MainContainer">
+        <section id="top" class="ParallaxContainer">
+          <h1>
+            Ridning på klank efterskole!
+          </h1>
+        </section>
+        <div class="ContentContainer">
+            <section id="video">
+          <video id="video1" controls src="video-kopi.mp4"></video>
+          </section>
+    
+          <!---
+          <svg id="text-container" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1358.4 148.32">
+            <path id="text-curve"
+              d="M319.5 250.5c314.09 99.22 511.43 62.08 638 0 38.62-18.94 53.23-31.66 90-48 205.48-91.31 443.72-2.74 630 102"
+              transform="translate(-319.35 -163.95)" style="fill:none;stroke:#000;stroke-miterlimit:10" />
+            <text y="40" font-size="32">
+              <textpath id="text-path" href="#text-curve" startOffset="200">
+                Klank efterskole
+              </textpath>
+            </text>
+            </svg>
+            -->
+    
+          <svg id="text-container" class="max" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1410 406">
             <path style="stroke-miterlimit:10;stroke-width:2px;fill:#fff;stroke:#fff" d="M1 1h1408v404H1z" />
             <path id="text-curve"
-                d="M115.5 566.5c338.43-121.78 556.12-105.21 692-6 6.64 4.85 9.44 7.23 16 12 161.4 117.3 410.28 86.79 700-30"
-                transform="translate(-114 -352)" style="fill:none;stroke-miterlimit:10;stroke-width:2px;stroke: black;" />
+              d="M115.5 566.5c338.43-121.78 556.12-105.21 692-6 6.64 4.85 9.44 7.23 16 12 161.4 117.3 410.28 86.79 700-30"
+              transform="translate(-114 -352)" style="fill:none;stroke-miterlimit:10;stroke-width:2px;" />
             <text y="40" font-size="32">
-                <textpath id="text-path" href="#text-curve" startOffset="200">
-                    "Gode biler og god service" - Reynir Gunnarsson
-                </textpath>
+              <textpath id="text-path" href="#text-curve" startOffset="200">
+                "Gode biler og god service" - Reynir Gunnarsson
+              </textpath>
             </text>
-        </svg>
-        <br>
-        <br>
-        <script src="script.js"></script>
+          </svg>
+    
+          
+    
+          <section id="skills" class="Content">
+            <p>ʻO Lorem Ipsum kahi haʻahaʻa wale nō o ka paʻi a me keʻano o nāʻoihana. ʻO Lorem Ipsum ka 'ōlelo papahana
+              maʻamau o kaʻoihana o ka makahiki 1500, i ka wā i lawe ai kekahi mea paʻi kiʻiʻole i keʻano o ka type a
+              scrambled iā ia e hana i kahi puke kiko'ī. ʻAʻole i ola wale i kaʻelima mau kenekulia, akā,ʻo ka leleʻana hoʻi
+              i nāʻano o ka lolouila, e hoʻololiʻoleʻia ana. Ua hoʻolahaʻia i nā makahiki 1960 me ka hoʻokuʻuʻana i nā pepa
+              Letraset i loko o nā moʻolelo Lorem Ipsum, a me nā mea hou aku me ka polokalamu hoʻopuka pākī e like me Aldus
+              PageMaker me nā papa o Lorem Ipsum.
+            </p>
+            <p>ʻO Lorem Ipsum kahi haʻahaʻa wale nō o ka paʻi a me keʻano o nāʻoihana. ʻO Lorem Ipsum ka 'ōlelo papahana
+              maʻamau o kaʻoihana o ka makahiki 1500, i ka wā i lawe ai kekahi mea paʻi kiʻiʻole i keʻano o ka type a
+              scrambled iā ia e hana i kahi puke kiko'ī. ʻAʻole i ola wale i kaʻelima mau kenekulia, akā,ʻo ka leleʻana hoʻi
+              i nāʻano o ka lolouila, e hoʻololiʻoleʻia ana. Ua hoʻolahaʻia i nā makahiki 1960 me ka hoʻokuʻuʻana i nā pepa
+              Letraset i loko o nā moʻolelo Lorem Ipsum, a me nā mea hou aku me ka polokalamu hoʻopuka pākī e like me Aldus
+              PageMaker me nā papa o Lorem Ipsum.
+            </p>
+            <p>ʻO Lorem Ipsum kahi haʻahaʻa wale nō o ka paʻi a me keʻano o nāʻoihana. ʻO Lorem Ipsum ka 'ōlelo papahana
+              maʻamau o kaʻoihana o ka makahiki 1500, i ka wā i lawe ai kekahi mea paʻi kiʻiʻole i keʻano o ka type a
+              scrambled iā ia e hana i kahi puke kiko'ī. ʻAʻole i ola wale i kaʻelima mau kenekulia, akā,ʻo ka leleʻana hoʻi
+              i nāʻano o ka lolouila, e hoʻololiʻoleʻia ana. Ua hoʻolahaʻia i nā makahiki 1960 me ka hoʻokuʻuʻana i nā pepa
+              Letraset i loko o nā moʻolelo Lorem Ipsum, a me nā mea hou aku me ka polokalamu hoʻopuka pākī e like me Aldus
+              PageMaker me nā papa o Lorem Ipsum.
+            </p>
+        </section>
+          
+        </div>
+      </div>
+
+    
+    <section id="projects">
+    </section>
+    <section id="contact">
+    </section>
+
+    
 </body>
+
 </html>

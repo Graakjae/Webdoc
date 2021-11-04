@@ -13,8 +13,6 @@ const videoObserver = new IntersectionObserver(videoHandler)
 const video1 = document.getElementById("video1");
 videoObserver.observe(video1);
 
-//svg animation
-observer.observe(document.querySelector("svg"))
 
 //path animation
 var textPath = document.querySelector('#text-path');
@@ -39,4 +37,12 @@ function onScroll() {
     });
 }
 
-window.addEventListener('scroll', onScroll);
+
+
+document.querySelector(".MainContainer").addEventListener('scroll', onScroll);
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;           
+}
+body {
+    background: transparent;   
+    position: relative;             
+}
+
+section {
+    padding-top: 5%;
+    min-height: 100%;
+    font-weight: 300;
+    color: #2a3039;
+    z-index: 1;
+    position: relative;
+}
+section h1 {
+    font-size: 35px;
+}
+
+#home, #contact {
+    color: transparent;
+}
+#skills {
+    background: #f5f8fb;    
+}
+
+#projects {
+    background-image: url();
+}
+
+.dotnav-right {
+    right: 10px;
+    top: 50%;
+    margin-top: -50px;
+    height: 100px;
+    z-index: 999;
+    position: fixed;
+}
+
+.dotnav {
+    padding: 0;
+    list-style: none;
+    font-size: 0.001px;
+}
+
+.dotnav > li {
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+}
+.dotnav > li:nth-child(n+2) {
+    margin-left: 15px;
+}
+
+.dotnav > li > a {
+    display: inline-block;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -999%;
+}
+.dotnav > li > a:hover,
+.dotnav > li > a:focus {
+    background: black;
+    outline: none;
+}
+.dotnav > li > a:active {
+    background: black;
+}
+.dotnav > li.active > a {
+    background: black;
+}
+.dotnav-vertical > li {
+    display: block;
+    margin-right:10px;
+}
+.dotnav-vertical > li:nth-child(n+2) {
+    margin-left: 0;
+    margin-top: 10px;
+}
+.awesome-tooltip + .tooltip > .tooltip-inner {
+    background-color: black; 
+    color: #fff; 
+    border: 1px solid black; 
+}
+.awesome-tooltip + .tooltip.left > .tooltip-arrow{
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-top:5px solid transparent;
+    border-bottom:5px solid transparent;
+    border-left:5px solid black;
+}
