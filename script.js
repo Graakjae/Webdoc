@@ -11,15 +11,12 @@
 }
 
 const observer = new IntersectionObserver(handler, {
-    threshold: 0.5,
+    threshold: 0.1,
 });
 
 const img = document.getElementById("image1");
         img.classList.add("fade-scale-in");
         observer.observe(img);
-
-//svg animation
-observer.observe(document.querySelector("svg"))
 
 
 //video
@@ -37,6 +34,8 @@ const videoObserver = new IntersectionObserver(videoHandler)
 const video1 = document.getElementById("video1");
 videoObserver.observe(video1);
 
+//svg animation
+observer.observe(document.querySelector("svg"))
 
 //path animation
 var textPath = document.querySelector('#text-path');

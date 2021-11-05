@@ -6,7 +6,7 @@ html, body {
   }
   
   h1 {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: center;
     font-size: 130px;
@@ -29,7 +29,7 @@ html, body {
   }
   
   .Content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 5px 0;
   }
@@ -79,7 +79,11 @@ html, body {
     text-align: center;
     margin-top: -20%;
     color: white;
-    font-family: Quicksand;
+  }
+
+  #projects h1{
+    line-height: 100px;
+    margin-top: -70px;
   }
 
   .img{
@@ -101,6 +105,7 @@ html, body {
   .ml5 {
     font-weight: 900;
     font-size: 3em;
+    padding-bottom: 40px;
   }
 
   

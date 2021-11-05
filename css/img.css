@@ -37,7 +37,7 @@ section h1 {
 }
 
 #projects {
-    max-width: 800px;
+    max-width: 1000px;
     display: block;
     margin: auto;
     background-color: rgb(107, 156, 118);
