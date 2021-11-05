@@ -87,5 +87,21 @@ html, body {
     border-radius: 10px;
   }
 
+  /*---text animation----*/
+  .ml3 {
+    font-weight: 900;
+    font-size: 3em;
+  }
+
+  .ml4 {
+    font-weight: 900;
+    font-size: 3em;
+  }
+
+  .ml5 {
+    font-weight: 900;
+    font-size: 3em;
+  }
+
   
   
