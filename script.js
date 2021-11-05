@@ -11,8 +11,12 @@
 }
 
 const observer = new IntersectionObserver(handler, {
-    threshold: 0.1,
+    threshold: 0.5,
 });
+
+const img = document.getElementById("image1");
+        img.classList.add("fade-scale-in");
+        observer.observe(img);
 
 //svg animation
 observer.observe(document.querySelector("svg"))

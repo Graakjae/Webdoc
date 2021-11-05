@@ -6,12 +6,11 @@ html, body {
   }
   
   h1 {
-    font-family: Quicksand;
+    font-family: Open Sans;
     color: white;
     text-align: center;
-    font-size: 100px;
+    font-size: 130px;
     font-weight: 800;
-    line-height: 200px;
   }
   
   .MainContainer {
@@ -32,7 +31,7 @@ html, body {
   .Content {
     max-width: 800px;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 5px 0;
   }
   
   p {
@@ -42,11 +41,11 @@ html, body {
   .ParallaxContainer {
     position: relative;
     z-index: -1;
-    height: 100vh;
+    height: 89%;
     justify-content: center;
     align-items: center;
     transform: translateZ(-1px) scale(2);
-    background: url(https://media0.giphy.com/media/7BL6VINFeSY0Q2PgRf/giphy.gif?cid=ecf05e47vams3yal85b7epqn7kt3q5nqhh1hdcayc8t05jzt&rid=giphy.gif&ct=g);
+    background: url(https://media0.giphy.com/media/DCZvWu5DWW6vQ2wIa1/giphy.gif?cid=790b7611b616d00f70d7574bba58bf3b9b61b2daca274dc9&rid=giphy.gif&ct=g);
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -54,16 +53,16 @@ html, body {
   .ParallaxContainer svg{
     display: block;
     margin: auto;
-    top: 0;
     width: 65%;
+    margin-top: 140px;
+    opacity: 100%;
+    z-index: 2;
   }
 
   
   video{
     display: block;
     margin: auto;
-    justify-content: center;
-    margin-top: -50px;
   }
   
   .top{
