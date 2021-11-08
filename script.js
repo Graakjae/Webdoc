@@ -1,23 +1,24 @@
- //Billede animation
- function handler(entries, observer) {
-    for (const entry of entries) {
-        if (entry.isIntersecting) {
-            entry.target.classList.add("transition");
-            observer.unobserve(entry.target);
-        } else {
-            entry.target.classList.remove("transition");
-        }
-    }
+ // SVG animation
+function transitionHandler(entries, observer) {
+  for (const entry of entries) {
+      if (entry.isIntersecting) {
+          entry.target.classList.add("transition");
+          observer.unobserve(entry.target);
+      } else {
+          entry.target.classList.remove("transition");
+      }
+  }
 }
 
-const observer = new IntersectionObserver(handler, {
-    threshold: 0.1,
+const transitionObserver = new IntersectionObserver(transitionHandler, {
+  threshold: 0.1,
 });
 
-const img = document.getElementById("image1");
-        img.classList.add("fade-scale-in");
-        observer.observe(img);
+const svgs = document.querySelectorAll("svg");
 
+for (const svg of svgs) {
+transitionObserver.observe(svg);
+}
 
 //video
 function videoHandler(entries) {
@@ -34,8 +35,6 @@ const videoObserver = new IntersectionObserver(videoHandler)
 const video1 = document.getElementById("video1");
 videoObserver.observe(video1);
 
-//svg animation
-observer.observe(document.querySelector("svg"))
 
 //path animation
 var textPath = document.querySelector('#text-path');

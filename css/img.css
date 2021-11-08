@@ -28,20 +28,32 @@ section h1 {
     color: transparent;
 }
 #skills {
-    background: #9eacb9;    
+    background: white;   
+}
+
+#skills h1 {
+    color: #839173;
+    font-size: 40px;
 }
 
 #video {
-    background: teal; 
+    background: white; 
     padding-bottom: 70px;   
 }
 
 #projects {
-    max-width: 1000px;
     display: block;
     margin: auto;
-    background-color: rgb(107, 156, 118);
+    background-color: #dae6ba;
 }
+
+#projects h1 {
+    color: black;
+    font-size: 50px;
+    line-height: 100px;
+    margin-top: -70px;
+}
+
 
 .dotnav-right {
     right: 10px;
