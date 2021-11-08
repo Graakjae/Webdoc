@@ -108,5 +108,47 @@ html, body {
     padding-bottom: 40px;
   }
 
+  /*---- footer ----*/
+
+  .footer {
+    display: flex;
+    background-color: #3ac5ff;
+}
+
+.footer1 {
+  color: white;
+}
+
+.social-logo {
+  z-index: 550;
+  padding: 5px;
+  float: right;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -webkit-transition: all 0.4s;
+  transition:all 0.4s
+}
+
+.social-logo:hover {
+  opacity: 0.4
+}
+
+.footerbox {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.footer-info {
+  float: left;
+  margin-right: 700px;
+}
+
+.footer-socials{
+  margin: auto;
+  float: right;
+}
+
+
   
   
