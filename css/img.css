@@ -86,7 +86,7 @@ section h1 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid #839173;;
     vertical-align: top;
     overflow: hidden;
     padding: 0;
@@ -94,14 +94,14 @@ section h1 {
 }
 .dotnav > li > a:hover,
 .dotnav > li > a:focus {
-    background: black;
+    background: #839173;
     outline: none;
 }
 .dotnav > li > a:active {
-    background: black;
+    background: #839173;
 }
 .dotnav > li.active > a {
-    background: black;
+    background: #839173;
 }
 .dotnav-vertical > li {
     display: block;
@@ -112,9 +112,9 @@ section h1 {
     margin-top: 10px;
 }
 .awesome-tooltip + .tooltip > .tooltip-inner {
-    background-color: black; 
+    background-color: #839173; 
     color: #fff; 
-    border: 1px solid black; 
+    border: 1px solid #839173; 
 }
 .awesome-tooltip + .tooltip.left > .tooltip-arrow{
     top:50%;
@@ -122,5 +122,5 @@ section h1 {
     margin-top:-5px;
     border-top:5px solid transparent;
     border-bottom:5px solid transparent;
-    border-left:5px solid black;
+    border-left:5px solid #839173;
 }
